@@ -18,6 +18,6 @@ Package.onUse(function(api) {
 
 Package.onTest(function(api) {
   api.use('tinytest');
-  api.use('daishi:facebook-server-api');
-  api.addFiles('facebook-server-api-tests.js');
+  api.use('daishi:facebook-server-api', 'server');
+  api.addFiles('facebook-server-api-tests.js', 'server');
 });
