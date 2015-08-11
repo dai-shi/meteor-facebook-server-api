@@ -1,6 +1,6 @@
 Package.describe({
   name: 'daishi:facebook-server-api',
-  version: '0.0.1',
+  version: '0.0.2',
   summary: 'A wrapper for the fb package in npm',
   git: 'https://github.com/dai-shi/meteor-facebook-server-api',
   documentation: 'README.md'
