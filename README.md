@@ -13,7 +13,7 @@ Example
 -------
 
 ```javascript
-var res = FB.mapi('me', 'get', {
+var res = FB.mapi('me', {
   access_token: accessToken
 });
 ```
