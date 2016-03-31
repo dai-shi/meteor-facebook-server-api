@@ -1,3 +1,22 @@
+### Notes for Meteor 1.3
+
+You no longer need this package if you are using Meteor 1.3. Just install the npm package,
+
+```bash
+npm install fb
+```
+
+and import like the following:
+
+```JavaScript
+import { Meteor } from 'meteor/meteor';
+import FB from 'fb';
+
+FB.mapi = Meteor.wrapAsync(FB.napi);
+```
+
+----
+
 facebook-server-api (Meteor)
 ============================
 
